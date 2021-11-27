@@ -24,7 +24,7 @@ public class MaxPartecipantsMain {
 
         job.setJarByClass(MaxPartecipantsMain.class);
         job.setMapperClass(MaxPartecipantsMapper.class);
-        job.setReducerClass(MaxPartecipantsReducer2.class);
+        job.setReducerClass(MaxPartecipantsReducer3.class);
 
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(Text.class);
